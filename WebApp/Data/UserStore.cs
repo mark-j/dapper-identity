@@ -12,7 +12,7 @@ using WebApp.Models;
 namespace WebApp.Data
 {
     public class UserStore : IUserStore<ApplicationUser>, IUserEmailStore<ApplicationUser>, IUserPhoneNumberStore<ApplicationUser>,
-        IUserTwoFactorStore<ApplicationUser> , IUserPasswordStore<ApplicationUser>
+        IUserTwoFactorStore<ApplicationUser>, IUserPasswordStore<ApplicationUser>
     {
         private readonly string _connectionString;
 
